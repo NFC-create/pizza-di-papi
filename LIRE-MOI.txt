@@ -1,0 +1,36 @@
+PIZZA DI PAPI — PAGE HTML AUTONOME
+=================================
+
+OUVRIR DANS INTELLIJ
+1. Décompressez entièrement Pizza-di-Papi.zip.
+2. Ouvrez le dossier Pizza-di-Papi dans IntelliJ.
+3. Ouvrez index.html puis choisissez l'ouverture dans votre navigateur.
+
+Vous pouvez aussi double-cliquer sur index.html depuis l'Explorateur Windows.
+Aucun npm, serveur, framework ou téléchargement n'est nécessaire.
+
+FICHIERS À MODIFIER
+- index.html : textes, liens, plats, ingrédients et prix.
+- styles.css : couleurs, mise en page, typographie et animations.
+- assets/images/ : photos du menu et mascotte 3D.
+- assets/fonts/ : polices locales DM Sans et Lilita One, avec licences.
+
+Le menu contient 14 pizzas, 3 tiramisus et 8 boissons.
+Les images des plats sont des illustrations culinaires créées avec ImageGen
+à partir des noms et ingrédients du menu. Les visuels sont cadrés en CSS.
+La mascotte 3D est une adaptation créée avec ImageGen à partir du logo fourni,
+conservé dans assets/images. Les images ne sont pas des photos contractuelles.
+
+La page et son design fonctionnent hors connexion. Instagram, TikTok,
+Facebook, Google Maps et l'envoi d'un avis nécessitent une connexion Internet.
+Le bouton téléphone utilise le numéro présent sur le menu fourni.
+
+UTILISATION NFC
+Pour que les clients accèdent à cette page depuis leur téléphone, hébergez
+le dossier sur un hébergement web accessible publiquement, en conservant
+la structure des fichiers, puis inscrivez son URL HTTPS sur la puce NFC.
+Une adresse locale de votre ordinateur ne sera pas accessible aux clients.
+
+SOURCES DU MENU
+Les tarifs et compositions sont repris des documents fournis.
+Cette page présente le menu ; elle ne prend pas de commande en ligne.
